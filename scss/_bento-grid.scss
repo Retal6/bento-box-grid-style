@@ -1,0 +1,33 @@
+@use "./grid-box";
+
+// .grid-container{
+//     display: grid;
+//     grid-template-columns: 200px 300px 200px 200px; 
+//     grid-template-rows: 320px 50px auto 100px;
+//     grid-template-areas: 
+//     "box1 box3 box3 box7"
+//     "box1 box3 box3 box7"
+//     "box2 box4 box5 box7"
+//     "box2 box6 box8 box8"
+//     ;
+    
+//     gap: 2rem;
+// }
+.grid-container {
+    width: min(1120px, 90%);
+    margin: 80px auto;
+
+    display: grid;
+
+    grid-template-columns: 256px 256px 256px 256px;
+
+    grid-template-rows:300px 100px 180px 280px;
+
+    gap: 32px;
+
+    grid-template-areas:
+        "box1 box3 box3 box7"
+        "box1 box4 box5 box7"
+        "box2 box4 box5 box7"
+        "box2 box6 box8 box8";
+}

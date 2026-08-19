@@ -1,0 +1,207 @@
+@use "./variables";
+
+.purple-text{
+    color: variables.$Purple-500;
+}
+.yellow-text{
+    color: variables.$Yellow-500;
+}
+.italic{
+    font-style: italic;
+}
+
+// box-1
+.grid-box1{
+    background-color:variables.$Yellow-100 ;
+    font-family: variables.$font-family;
+    padding: 1rem;
+    border-radius: 10px;
+    grid-area: box1;
+}
+.title-box-1{
+    font-weight: 500;
+    font-size: 2.9rem;
+    letter-spacing:-2.5px;
+    line-height:2.5rem;
+}
+.grid-box1 img{
+    width: 100%;
+    margin: 0 auto;
+}
+
+// box-2
+.grid-box2{
+    background-color:variables.$Yellow-500 ;
+    font-family: variables.$font-family;
+    padding: 1rem;
+    border-radius: 10px;
+    grid-area: box2;
+}
+.title-box-2{
+    font-weight: 500;
+    font-size: 2.9rem;
+    letter-spacing:-2.5px;
+    line-height:2.5rem;
+}
+.grid-box2 img{
+    width: 100%;
+    margin: 0 auto;
+}
+
+// box-3
+.grid-box3{
+    background-color:variables.$Purple-500 ;
+    font-family: variables.$font-family;
+    color: white;
+    text-align: center;
+    padding: 1rem;
+    border-radius: 10px;
+    grid-area: box3;
+}
+.title-box-3{
+    line-height: 3.5rem;
+    font-size: 3.7rem;
+    margin-bottom: 1rem;
+    letter-spacing:-2.5px;
+    font-weight: 500;
+    margin-bottom: 2rem;
+}
+.third-box-review{
+    font-weight: 200;
+    font-size: 1.2rem;
+    margin-top: 0;
+}
+.grid-box3 img{
+    width: 30%;
+    margin: 0 auto;
+    padding: 0;
+}
+
+// box-4
+.grid-box4{
+    background-color:variables.$White;
+    font-family: variables.$font-family;
+    letter-spacing:-2.5px;
+    font-size: 2.4rem;
+    font-weight: 400;
+    padding: 1rem;
+    border-radius: 10px;
+    line-height: 2.5rem;
+    overflow: hidden;
+    grid-area: box4;
+}
+.title-box-4{
+    line-height: 2.5rem;
+    font-size: 2.7rem;
+    letter-spacing:-2.5px;
+    font-weight: 400;
+}
+.grid-box4 .grid-image-box-4 {
+    width: 100%;
+    height: auto;
+}
+
+// box-5
+.grid-box5{
+    background-color:variables.$Yellow-500;
+    font-family: variables.$font-family;
+    letter-spacing:-2.5px;
+    font-size: 2.4rem;
+    font-weight: 400;
+    padding: 1rem;
+    border-radius: 10px;
+    line-height: 2.5rem;
+    overflow: hidden;
+    grid-area: box5;
+}
+.title-box-5{
+    line-height: 2.5rem;
+    font-size: 2.7rem;
+    letter-spacing:-2.5px;
+    font-weight: 400;
+    margin:0;
+}
+.grid-image-box-5{
+    width: 100%;
+    margin-top: 2rem;
+    
+}
+
+// box-6
+.grid-box6{
+    background-color:variables.$White;
+    font-family: variables.$font-family;
+    font-size: 2.4rem;
+    font-weight: 400;
+    padding: 1rem;
+    border-radius: 10px;
+    line-height: 2.5rem;
+    overflow: hidden;
+    grid-area: box6;
+}
+.title-box-6{
+    margin: 0 auto;
+    font-size: 1.2rem;
+    line-height: 2.5rem;
+    font-weight: 400;
+}
+.grid-6-span{
+    font-size: 4rem;
+    display: block;
+    font-weight: 500;
+    margin: 2rem 0;
+}
+.grid-image-box-6{
+    width: 100%;
+    margin-top: 1rem;
+}
+
+// box-7
+.grid-box7{
+    background-color:variables.$Purple-100;
+    font-family: variables.$font-family;
+    padding: 1rem;
+    border-radius: 10px;
+    overflow: hidden;
+    grid-area: box7;
+}
+.title-box-7{
+    letter-spacing: -2px;
+    line-height: 2.5rem;
+    font-size: 2.5rem;
+    font-weight: 500;
+}
+.grid-box7 .grid-image-box-7 {
+    width: 100%;
+    height: auto;
+    margin-left: 0;
+    margin-bottom:2rem;
+}
+.grid-7-p{
+    font-size: 1.5rem;
+    line-height: 2rem;
+}
+
+// box-8
+.grid-box8{
+    background-color:variables.$Purple-500;
+    font-family: variables.$font-family;
+    padding: 1rem;
+    border-radius: 10px;
+    overflow: hidden;
+    display: flex;
+    flex-direction: row;
+    grid-area: box8;
+}
+.grid-8-title{
+    letter-spacing: -1.5px;
+    line-height: 2.5rem;
+    font-size: 2.4rem;
+    font-weight: 500;
+    color: variables.$White;
+    margin: auto 0;
+}
+.grid-image-box-8 {
+    width: 50%;
+    height: auto;
+}
