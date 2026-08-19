@@ -3,7 +3,7 @@ Bento Box
 A responsive Bento Box shaped grid. This is my second project using SCSS, and it includes HTML and SCSS/CSS.
 
 Preview
-🔗 Live Demo: https://retal6.github.io/social-media-dashboard-challenge/
+🔗 Live Demo: [https://retal6.github.io/social-media-dashboard-challenge/](https://retal6.github.io/bento-box-grid-style/)
 
 Bento Box Preview
 ![Bento grid first img](image.png)
